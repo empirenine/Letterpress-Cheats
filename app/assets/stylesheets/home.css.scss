@@ -39,6 +39,10 @@ html,body {
                 &:nth-of-type(even) {
                   background-color: #eee;
                 }
+                
+                &.first {
+                  outline: none;
+                }
               }
               
               &:nth-of-type(even) {
