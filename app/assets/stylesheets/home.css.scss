@@ -1,0 +1,79 @@
+html,body {
+  height:100%;
+}
+  
+  .container {
+  max-width: 660px; left:50%; position:absolute; margin-left:-300px; height:100%; display: table; font-family:'Raleway', helvetica, sans serif;
+  
+  .feature-container {
+    display:table-cell; vertical-align:middle;
+    
+    .feature {
+      display: table; vertical-align:middle; 
+      
+      .phone {
+        width:309px; height:600px; background-image:url(/images/letterpress-cheats.png); float:left; margin-right: 18px;
+        
+        .screen {
+          background-color: white; width: 256px; height: 382px; position:relative; top: 108px; left: 25px;
+          
+          form {
+            text-align: center;
+            overflow: hidden;
+            
+            .input-row {
+              margin-left: -5px;
+              
+              .input {
+                background-color: #f2f2f2;
+                border: none;
+                color: #444;
+                font-size: 32px;
+                height: 49px;
+                line-height: 36px;
+                margin-right: -4px;
+                text-align: center;
+                text-transform: uppercase;
+                width: 49px;
+                
+                &:nth-of-type(even) {
+                  background-color: #eee;
+                }
+              }
+              
+              &:nth-of-type(even) {
+                .input {
+                  background-color: #f2f2f2;
+                  &:nth-of-type(odd) {
+                    background-color: #eee;
+                  }
+                }
+              }
+            }
+            
+            .generate {
+              background-color: #444;
+              border: none;
+              color: #fff;
+              font-size: 24px;
+              height: 60px;
+              letter-spacing: 2px;
+              margin: 20px auto;
+              text-align: center;
+              text-transform: uppercase;
+              width: 200px;
+            }
+          }
+        }
+      }
+      
+      .description {
+        position: relative;vertical-align:middle; display:table-cell;
+
+        .app-store-link {
+          margin-top: 30px; display:block;
+        }
+      }        
+    }
+  }
+}

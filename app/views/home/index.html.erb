@@ -1,0 +1,43 @@
+<div class="feature-container">
+  <div class="feature">
+    <div class="phone">
+      <div class="screen">
+        <%= form_tag('/words') do -%>
+          <div class="input-row">
+            <%= text_field_tag '1', nil, :class => 'input', :maxlength => 1, :tabindex => '1' %>
+            <%= text_field_tag '2', nil, :class => 'input', :maxlength => 1, :tabindex => '2' %>
+            <%= text_field_tag '3', nil, :class => 'input', :maxlength => 1, :tabindex => '3' %>
+            <%= text_field_tag '4', nil, :class => 'input', :maxlength => 1, :tabindex => '4' %>
+            <%= text_field_tag '5', nil, :class => 'input', :maxlength => 1, :tabindex => '4' %>
+                                                                                             
+            <%= text_field_tag '6', nil, :class => 'input', :maxlength => 1, :tabindex => '6' %>
+            <%= text_field_tag '7', nil, :class => 'input', :maxlength => 1, :tabindex => '7' %>
+            <%= text_field_tag '8', nil, :class => 'input', :maxlength => 1, :tabindex => '8' %>
+            <%= text_field_tag '9', nil, :class => 'input', :maxlength => 1, :tabindex => '9' %>
+            <%= text_field_tag '10', nil, :class => 'input', :maxlength => 1, :tabindex => '10' %>
+
+            <%= text_field_tag '11', nil, :class => 'input', :maxlength => 1, :tabindex => '11' %>
+            <%= text_field_tag '12', nil, :class => 'input', :maxlength => 1, :tabindex => '12' %>
+            <%= text_field_tag '13', nil, :class => 'input', :maxlength => 1, :tabindex => '13' %>
+            <%= text_field_tag '14', nil, :class => 'input', :maxlength => 1, :tabindex => '14' %>
+            <%= text_field_tag '15', nil, :class => 'input', :maxlength => 1, :tabindex => '15' %>
+                                                                                           
+            <%= text_field_tag '16', nil, :class => 'input', :maxlength => 1, :tabindex => '16' %>
+            <%= text_field_tag '17', nil, :class => 'input', :maxlength => 1, :tabindex => '17' %>
+            <%= text_field_tag '18', nil, :class => 'input', :maxlength => 1, :tabindex => '18' %>
+            <%= text_field_tag '19', nil, :class => 'input', :maxlength => 1, :tabindex => '19' %>
+            <%= text_field_tag '20', nil, :class => 'input last', :maxlength => 1, :tabindex => '20' %>
+          </div>
+          <div>
+            <%= submit_tag 'Generate', :class => 'generate', :tabindex => '21' %>
+          </div>
+        <% end %>
+      </div>
+    </div>
+    <div class="description">
+      <h1>Letterpress Cheats</h1>
+      <h2>Beat your friends at Letterpress</h2>
+      <a href="" class="app-store-link"><img src="images/letterpress-cheats-appstore.png" alt="Letterpress Cheats on the App Store" /></a>
+    </div>
+  </div>
+</div>
